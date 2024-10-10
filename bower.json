@@ -9,10 +9,5 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/purescript-contrib/purescript-options.git"
-  },
-  "ignore": [
-    "*",
-    "!src/**/*",
-    "!LICENSE"
-  ]
+  }
 }
