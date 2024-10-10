@@ -1,0 +1,26 @@
+package:
+  name: options
+  publish:
+    license: MIT
+    version: 7.0.0
+    location:
+      githubOwner: purescript-contrib
+      githubRepo: purescript-options
+  dependencies:
+    - contravariant
+    - foreign
+    - foreign-object
+    - maybe
+    - newtype
+    - prelude
+    - tuples
+  test:
+    main: Test.Main
+    dependencies:
+      - assert
+      - console
+      - effect
+workspace:
+  extraPackages: {}
+  packageSet:
+    registry: 60.5.0
