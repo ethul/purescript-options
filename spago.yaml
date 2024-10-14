@@ -21,7 +21,4 @@ package:
       - assert
       - console
       - effect
-workspace:
-  extraPackages: {}
-  packageSet:
-    registry: 60.5.0
+workspace: {}
